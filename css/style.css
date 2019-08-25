@@ -8,10 +8,12 @@
   align-items: center;
   padding-left: 24px;
   padding-right: 24px;
+  margin: auto;
   border-radius: 4px;
   user-select: none;
   -webkit-user-select: none;
-  background-color: #fff;
+  background-color: black;
+  text-align: center;
 }
 .audio.green-audio-player .play-pause-btn {
   display: none;
@@ -27,12 +29,12 @@
 }
 .audio.green-audio-player .slider {
   flex-grow: 1;
-  background-color: #D8D8D8;
+  background-color: white;
   cursor: pointer;
   position: relative;
 }
 .audio.green-audio-player .slider .progress {
-  background-color: #44BFA3;
+  background-color: lightgrey;
   border-radius: inherit;
   position: absolute;
   pointer-events: none;
@@ -41,7 +43,7 @@
   height: 16px;
   width: 16px;
   border-radius: 8px;
-  background-color: #44BFA3;
+  background-color: white;
   position: absolute;
   pointer-events: all;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.32);
@@ -50,7 +52,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 18px;
-  color: #55606E;
+  color: white;
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
@@ -82,12 +84,12 @@
   cursor: pointer;
 }
 .audio.green-audio-player .volume .volume-btn.open path {
-  fill: #44BFA3;
+  fill: white;
 }
 .audio.green-audio-player .volume .volume-controls {
   width: 30px;
   height: 135px;
-  background-color: rgba(0, 0, 0, 0.62);
+  background-color: #2a2a2a;
   border-radius: 7px;
   position: absolute;
   left: -3px;
