@@ -133,3 +133,19 @@ html, body {
     transform: rotateZ(1turn);
   }
 }
+body{
+  background-image: linear-gradient(125deg, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea);
+  background-size: 100% 100%;
+  animation: bganimation 15s infinite;
+}
+@keyframes bganimation {
+  0%{
+    background-position:0% 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
