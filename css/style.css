@@ -138,7 +138,7 @@ body{
   padding: 0;
   background-image: linear-gradient(125deg, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea);
   background-size: 1500%, 1500%;
-  animation: bganimation 2s infinite;
+  animation: bganimation 10s infinite;
 }
 @-webkit-keyframes bganimation {
     0%{
