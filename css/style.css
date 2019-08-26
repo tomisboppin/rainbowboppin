@@ -140,7 +140,7 @@ body{
   background-size: 1500%, 1500%;
   animation: bganimation 2s infinite;
 }
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes bganimation {
     0%{
       background-position:0% 50%;
     }
